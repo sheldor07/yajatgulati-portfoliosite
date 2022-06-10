@@ -1,8 +1,5 @@
-
-/* here body is a selector we can also use class and id class with #lib and id with. */
-#lib-header{
-    color:red;
-}
-.para{
-    color:blue;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+/* imports font from fonts.google */
+body{
+    font-family: 'Montserrat', 'sans-serif';
 }
