@@ -6,16 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
+    <!--  CSS METHOD 1
+        <style>
+        body{
+            color: red;
+        }
+    </style> -->
+     <!-- but most common way is to make a separate style sheet -->
+     <link href="styles.css" rel="stylesheet">
 </head>
 
 <body>
-    <h1> yajat's Component Library</h1>
-    <p> I am attending neog.camp and I want to make a portfolio website where I can house all my projects </p>
+    <h1 id="header" > yajat's Component Library</h1>
+    <!-- CSS METHOD 2 style="color:red" --> 
+   
+    <p class="para"> I am attending neog.camp and I want to make a portfolio website where I can house all my projects </p>
     <hr>
     <h2>@typography</h2>
     <h1> h1 is the biggest size tag </h1>
     <h2> h2 is the second biggest size tag</h2>
-    <p> p is used to write normal stuff</p>
+    <pclass="para"> p is used to write normal stuff</p>
     <small> small makes the text relatively smaller</small>
 
     <hr>
@@ -86,11 +96,11 @@
     <h2> @sections </h2>
     <section>
         <h3>white section</h3>
-        <p>this section has a white background </p>
+        <p class="para">this section has a white background </p>
     </section>
     <section>
         <h3>grey section</h3>
-        <p>this section has a grey background </p>
+        <p class="para">this section has a grey background </p>
     </section>
     <!-- <p> and last but not least we have a footer, we dont use h1 h2 h3 in footer only div</p> -->
     <hr>
