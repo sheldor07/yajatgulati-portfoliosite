@@ -9,6 +9,7 @@
 }
 body{
     font-family: 'Montserrat', 'sans-serif';
+    margin: 0px;
 }
 /* container */
 .container {
@@ -117,4 +118,19 @@ section  */
 .section{
     padding:2rem;
     border-radius: 0.5rem;
+}
+
+/* footer */
+
+footer{
+    background-color:var(--primary-color);
+    padding: 2rem 0rem;
+    text-align:center;
+    color:white;
+    border-top-right-radius: 1rem;
+    border-top-left-radius:1rem;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
 }
