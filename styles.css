@@ -1,0 +1,8 @@
+
+/* here body is a selector we can also use class and id class with #lib and id with. */
+#lib-header{
+    color:red;
+}
+.para{
+    color:blue;
+}
