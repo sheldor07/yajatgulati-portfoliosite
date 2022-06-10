@@ -26,6 +26,8 @@ body{
 .link{
     text-decoration:none;
     padding: 0.5rem 1rem;
+    margin-top:1rem;
+    margin-bottom:1rem;
 }
 
 .link-primary
@@ -133,4 +135,8 @@ footer{
 
 .footer ul{
     padding-inline-start: 0px;
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
 }
