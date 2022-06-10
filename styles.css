@@ -39,6 +39,19 @@ body{
     border: 1px solid var(--primary-color);
     
 }
+hr{
+    margin: 2rem 0rem;
+}
 /* if just padding then it goes top,right,bottom,left and if you just give top,right then top==bottom and left==right*/
 
 /* look into BEM naming convention for CSS */
+
+/* lists */
+
+.list-non-bullet{
+    list-style: none;
+}
+.list-item-inline{
+    display:inline;
+    padding: 0rem 0.5rem;
+}
