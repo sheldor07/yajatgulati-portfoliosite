@@ -18,7 +18,7 @@ body{
 }  
 
 .container-center{
-    max-width: 600px;
+    max-width: 900px;
     margin: auto;
 }
 
@@ -131,6 +131,8 @@ footer{
     color:white;
     border-top-right-radius: 1rem;
     border-top-left-radius:1rem;
+    margin-top:5rem;
+    margin-bottom:0rem;
 }
 
 .footer ul{
@@ -139,15 +141,4 @@ footer{
 .footer .footer-header{
     font-weight: bold;
     font-size: large;
-}
-/* 
-projects page */
-
-.projects-heading{
-    margin:auto;
-}
-
-.projects-link{
-    border:1rem;
-    margin-top: 10px;
 }
