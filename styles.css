@@ -31,12 +31,11 @@ body{
 }
 
 .link-primary
-{   box-sizing: border-box;
+{
     background-color: var(--primary-color);
     border-radius: 0.5rem;
-    color: white;   
-    margin-left:395px;
-  
+    color: white;
+
 }
 .link-secondary
 {
@@ -110,7 +109,7 @@ hr{
 section  */
 
 
-.section h1,p {
+.section h1{
     text-align:center;
     padding:2rem;
 }
