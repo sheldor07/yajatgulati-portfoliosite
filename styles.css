@@ -28,6 +28,9 @@ body{
 }
 
 /* links */
+.para{
+    text-align:center;
+}
 .link{
     text-decoration:none;
     padding: 0.5rem 1rem;
@@ -48,6 +51,9 @@ body{
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
     
+}
+.link-section{
+    margin-left:23vw;
 }
 hr{
     margin: 2rem 0rem;
@@ -147,4 +153,12 @@ footer{
 .footer .footer-header{
     font-weight: bold;
     font-size: large;
+}
+@media(max-width:450px){
+    .link-primary{
+        padding:10px;
+    }
+    .link-secondary{
+        padding:10px;
+    }
 }
