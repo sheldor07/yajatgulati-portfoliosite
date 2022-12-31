@@ -58,6 +58,9 @@ body{
 hr{
     margin: 2rem 0rem;
 }
+.project-link{
+
+}
 /* if just padding then it goes top,right,bottom,left and if you just give top,right then top==bottom and left==right*/
 
 /* look into BEM naming convention for CSS */
@@ -154,7 +157,7 @@ footer{
     font-weight: bold;
     font-size: large;
 }
-@media(max-width:450px){
+@media(max-width:400px){
     .link-primary{
         padding:10px;
     }
@@ -162,3 +165,12 @@ footer{
         padding:10px;
     }
 }
+@media(max-width:300px){
+    .link-primary{
+        padding:5px;
+    }
+    .link-secondary{
+        padding:5px;
+    }
+}
+
